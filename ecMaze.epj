@@ -1,0 +1,73 @@
+{
+   "Version" : 0.2,
+   "ModuleName" : "ecMaze",
+   "Options" : {
+      "Warnings" : "All",
+      "TargetType" : "Executable",
+      "TargetFileName" : "ecMaze",
+      "Libraries" : [
+         "ecere"
+      ]
+   },
+   "Configurations" : [
+      {
+         "Name" : "Debug",
+         "Options" : {
+            "Debug" : true,
+            "MemoryGuard" : true,
+            "Optimization" : "None",
+            "PreprocessorDefinitions" : [
+               "_DEBUG"
+            ],
+            "Console" : true
+         }
+      },
+      {
+         "Name" : "Release",
+         "Options" : {
+            "Debug" : false,
+            "Optimization" : "Speed",
+            "Libraries" : [
+               "ecere",
+               "C:\\Users\\Charlie\\Documents\\Programming\\ecMaze\\Data\\resources.o"
+            ]
+         }
+      }
+   ],
+   "Files" : [
+      "form1.ec",
+      "form2.ec",
+      "form3.ec",
+      "Game.ec",
+      "MainProg.ec",
+      "form4.ec",
+      "Highscores.ec",
+      "form5.ec",
+      "form6.ec",
+      "form7.ec",
+      "form8.ec"
+   ],
+   "ResourcesPath" : "",
+   "Resources" : [
+      "Data/MainMenu.png",
+      "Data/Start Button.png",
+      "Data/Options Button.png",
+      "Data/HighScores Button.png",
+      "Data/Quit Button.png",
+      "Data/Cancel Button.png",
+      "Data/OptionsMenu.png",
+      "Data/PauseMenu.png",
+      "Data/Randomize Button.png",
+      "Data/Restart Button.png",
+      "Data/Resume Button.png",
+      "Data/Save Button.png",
+      "Data/Tileset.png",
+      "Data/HighScores.png",
+      "Data/GameOver.png",
+      "Data/Timesup.png",
+      "Data/HighScores.txt",
+      "Data/WinScreen.png",
+      "Data/YouMadeHSMenu.png",
+      "Data/MazeIcon.png"
+   ]
+}
