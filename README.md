@@ -16,3 +16,8 @@ Legal Note:
 ===========
 This game is covered by the GPL (v2) feel free to use the sources to learn the wonderful language of eC, and use any parts
 of the code in your own programs. 
+
+eC
+==
+A brilliant programming language based on ideas from C, but expanded into an easy to use OOP language.
+For more information on eC and ECERE, visit ec-lang.org or ecere.org
